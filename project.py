@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-# from scipy.stats import ttest_ind, norm
+from scipy.stats import ttest_ind, norm
 
 # Load the dataset (using only first 10,000 rows)
 df = pd.read_csv("vgsales.csv", nrows=10000)  # Replace with actual file name
